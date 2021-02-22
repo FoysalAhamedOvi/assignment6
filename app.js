@@ -125,7 +125,7 @@ if(slideType=="selected")
   }
 
   else{
-    alert(" sorry sir! duration time cannot be negative or null plz enter any positive duration")  
+    alert("Negative Number and Empty box are not allowed ")  
     document.getElementById("sliders-dot").innerHTML=""
     sliderContainer.innerHTML=""
   }
@@ -193,4 +193,5 @@ sliderBtn.addEventListener('click', function () {
    createSlider(allsliders,"all")
   
 })
+
 
